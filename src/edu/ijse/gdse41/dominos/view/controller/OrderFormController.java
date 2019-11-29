@@ -156,9 +156,7 @@ public class OrderFormController implements Initializable {
         //txtODate.setValue(LocalDate.parse(todayDate));
     }
     
-    public void setCustomizedAmount(String customizedAmount){
-        this.customized_Amount=customizedAmount;
-        lblAmount.setText(customized_Amount);
+ 
     }
     
     @FXML
